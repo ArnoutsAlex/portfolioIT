@@ -1,0 +1,242 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css');
+
+/* Helpers */
+/**************************/
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+/* Section1 Header*/
+/**************************/
+#parallax-main h1 {
+    font-family:'Oswald', sans-serif;
+    font-size:48px;
+    font-weight:800;
+    text-transform: uppercase;
+    color:black;
+    padding:0;
+    margin:0;
+}
+
+#parallax-main h3 {
+    font-family:'Oswald', sans-serif;
+    font-size:14px;
+    line-height:0;
+    font-weight:400;
+    letter-spacing:4px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 15px;
+    line-height:24px;
+}
+
+#parallax-main .title {
+    background: white;
+    padding: 60px;
+    margin:0 auto;
+    text-align:center;
+}
+
+#parallax-main .title h1 {
+    font-size:35px;
+    letter-spacing:6px;
+}
+
+/* Parallax Helpers */
+/**************************/
+
+#parallax-main h2 {
+    font-family:'Oswald', sans-serif;
+    font-size:70px;
+    letter-spacing:10px;
+    text-align: center;
+    color:white;
+    font-weight:400;
+    text-transform:uppercase;
+    z-index:10;
+    opacity:.7;
+}
+
+#parallax-main p {
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size:14px;
+    line-height:24px;
+}
+
+#parallax-main .block-gray {
+    background: #f2f2f2;
+    padding: 60px;
+}
+#parallax-main .section-overlay-mask {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: black; 
+    opacity: 0.70;
+}
+
+/* Section3 Gegevens */
+/**************************/
+
+.gegevens {
+    margin-top: 7.5em;
+    width: 25em;
+}
+
+.inleiding {
+    max-width: 38em
+}
+
+.first-character {
+    font-weight:400;
+    float: left;
+    font-size: 84px;
+    line-height: 64px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sc {color: #3b8595;}
+.ny {color: #3d3c3a;}
+.atw {color: #c48660;}
+
+#parallax-main .block {
+    background: white;
+    padding: 60px;
+    width:960px;
+    margin:0 auto;
+    text-align:justify;
+}
+
+.alexfoto {
+    width: 25em;
+    height: 19em;
+    background-image: url(IMG_0341.JPG);
+    background-size: 100%;
+    opacity: 0.2;
+    float: right;
+    margin-top: -19em;
+    
+}
+
+.alexfoto:hover {opacity: 0.9;}
+
+
+/* image effect */
+/**************************/
+
+.werklinks {
+    border: 1px solid;
+    margin-top: 2em;
+    float: left;
+    opacity: 0.2;
+    background-size: 100%;
+}
+.werklinks:hover {opacity: 0.9;}
+
+.werkrechts {
+    width: 28em;
+    height: 19em;
+    border: 1px solid;
+    margin-top: 2em;
+    float: right;
+    margin-left: 3.7em;
+    opacity: 0.2;
+    background-size: 100%;
+}
+.werkrechts:hover {opacity: 0.9;}
+
+.werk1 {width: 28em; height: 19em;background-image: url(IS1_ArnoutsA_Opdracht_09_Gradients_Blends-page-001.jpg);}
+.werk2 {width: 28em; height: 40em;background-image: url(Sponsormap_voorblad-page-001.jpg);}
+.werk3 {width: 28em; height: 19em; background-image: url(purepower.jpg)}
+.werk4 {background-image: url(TREE_END.jpg)}
+.werk5 {width: 28em; height: 37em;background-image: url(1415_PB2_ArnoutsA_Opdracht12.jpg)}
+.werk6 {width: 28em; height: 37.1em; background-image: url(GD2%20A2%20Poster.jpg); margin-bottom: 3em;}
+.werk7 {width: 28em; height: 19em; background-image: url(Rekenmachine.JPG); margin-bottom: 3em;}
+
+
+/* Section - Parallax */
+/**************************/
+#parallax-main .parallax-one {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(JTTWFDU1S5.jpg);
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
+#parallax-main .parallax-two {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative;
+    width: 100%; 
+    background-image: url(photo-1418065460487-3e41a6c84dc5.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+#parallax-main .parallax-three {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(photo-1415473655046-e32ca170859f.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;}
+
+/* Extras */
+/**************************/
+#parallax-main .line-break {
+    border-bottom:1px solid black; 
+    width: 150px; 
+    margin:0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-main .block {padding: 40px; width:620px;}
+}
+
+@media screen and (max-width: 767px) {
+  #parallax-main .block {padding: 30px; width:420px;}
+  #parallax-main h2 {font-size:30px;}
+  #parallax-main .block {padding: 30px;}
+  #parallax-main .parallax-one, #parallax-main .parallax-two, #parallax-main .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+
+@media screen and (max-width: 479px) {
+  #parallax-main .block {padding: 30px 15px; width:290px;}
+}
+
+@media all and (max-width: 600px) { 
+    div#eigenwerk {flex-direction: column;}
+    div#eigenwerk figure {max-width: 100%;}
+    div#eigenwerk img {border: none; text-align: center;}
+}
+
+@media all and (max-width: 400px) {
+    div#eigenwerk figure:hover {margin-bottom: 4rem;}
+    div#eigenwerk figure:nth-child(2):hover, div#eigenwerk figure:nth-child(3):hover {margin-top: 4rem; margin-bottom: 0;}
+}
